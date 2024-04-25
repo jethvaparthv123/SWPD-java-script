@@ -1,0 +1,20 @@
+let alphabet = prompt("enter the value of alphabets");
+
+if(alphabet == 'a'){
+    console.log("the alphabet is vowel");
+}
+else if(alphabet == 'e'){
+    console.log("the alphabet is vowel");
+}
+else if(alphabet == 'i'){
+    console.log("the alphabet is vowel");
+}
+else if(alphabet == 'o'){
+    console.log("the alphabet is vowel");
+}
+else if(alphabet == 'u'){
+    console.log("the alphabet is vowel");
+}
+else {
+    console.log("the alphabet is consonant");
+}
