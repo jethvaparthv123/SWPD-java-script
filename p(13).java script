@@ -1,0 +1,36 @@
+let a = prompt("enter the value of a");
+    let b = prompt("enter the value of b");
+    let c = prompt("enter the value of c");
+
+    a= parseInt(a);
+    b= parseInt(b);
+    c= parseInt(c);
+
+    let dis=((b*b)-4*a*c);
+
+    if(dis > 0){
+
+        let root1=((-b+(Math.sqrt(dis)))/(2*a));
+        let root2=((-b-(Math.sqrt(dis)))/(2*a));
+        console.log("the roots are real and diffrent");
+
+        console.log(root 1 = ${root1.toFixed(2)});
+        console.log(root 2 = ${root2.toFixed(2)});
+    }
+    else if(dis == 0){
+
+        let root1=(-b/(2*a));
+        console.log("the roots are real and equal");
+        console.log(root 1 = root 2= ${root1});
+
+    }
+    else {
+let rp2=((Math.sqrt(-dis)))/(2*a);
+let rp1=(-b/(2*a));
+      
+
+console.log("the roots are imaginary and diffrent");
+        console.log(root 1 =  ${rp1} +  i${rp2.toFixed(2)});
+        console.log(root 2 = ${rp1} -  i${rp2.toFixed(2)});
+
+    }
