@@ -1,0 +1,21 @@
+let ch = prompt("enter charcter").toUpperCase;
+ 
+switch(ch){
+case "A":
+    console.log("vowel");
+    break;
+    case "E":
+    console.log("vowel");
+    break;
+    case "I":
+    console.log("vowel");
+    break;
+    case "O":
+    console.log("vowel");
+    break;
+    case "U":
+    console.log("vowel");
+    break;
+default:
+    console.log("consonant");
+}
